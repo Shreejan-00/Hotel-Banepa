@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Hero() {
   const images = [
@@ -31,7 +32,7 @@ export default function Hero() {
           <h1 className="hero-hotel">Hotel Banepa</h1>
         </div>
         <div className="hero-ctas">
-          <button className="btn btn-primary">Get started</button>
+          <Link to="/" className="btn btn-primary">Get started</Link>
           <button className="btn btn-outline"></button>
         </div>
       </div>
