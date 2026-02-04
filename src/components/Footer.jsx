@@ -3,7 +3,6 @@ import React from 'react'
 export default function Footer() {
   return (
     <footer className="site-footer">
-      <div className="footer-wave"></div>
       <div className="container">
         <div className="footer-content">
           {/* Hotel Info Section */}
