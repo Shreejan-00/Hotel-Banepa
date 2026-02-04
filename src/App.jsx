@@ -13,6 +13,7 @@ import GrandRestaurantMenu from './pages/GrandRestaurantMenu'
 import HimalayanKitchenMenu from './pages/HimalayanKitchenMenu'
 import RooftopLoungeMenu from './pages/RooftopLoungeMenu'
 import TableReservation from './pages/TableReservation'
+import Login from './pages/Login'
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
             <Route path="/dining/rooftop-lounge-menu" element={<RooftopLoungeMenu />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/table-reservation" element={<TableReservation />} />
+            <Route path="/login" element={<Login />} />
           </Routes>
         </main>
         <Footer />

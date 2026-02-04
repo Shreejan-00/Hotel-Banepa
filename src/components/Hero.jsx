@@ -32,7 +32,7 @@ export default function Hero() {
           <h1 className="hero-hotel">Hotel Banepa</h1>
         </div>
         <div className="hero-ctas">
-          <Link to="/" className="btn btn-primary">Get started</Link>
+          <Link to="/login" className="btn btn-primary">Get started</Link>
           <button className="btn btn-outline"></button>
         </div>
       </div>
