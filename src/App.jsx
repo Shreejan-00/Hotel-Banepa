@@ -12,6 +12,7 @@ import Contact from './pages/Contact'
 import GrandRestaurantMenu from './pages/GrandRestaurantMenu'
 import HimalayanKitchenMenu from './pages/HimalayanKitchenMenu'
 import RooftopLoungeMenu from './pages/RooftopLoungeMenu'
+import TableReservation from './pages/TableReservation'
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
             <Route path="/dining/himalayan-kitchen-menu" element={<HimalayanKitchenMenu />} />
             <Route path="/dining/rooftop-lounge-menu" element={<RooftopLoungeMenu />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/table-reservation" element={<TableReservation />} />
           </Routes>
         </main>
         <Footer />

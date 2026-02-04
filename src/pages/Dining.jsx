@@ -79,7 +79,7 @@ export default function Dining() {
       <div className="reservation-cta">
         <h2>Make a Reservation</h2>
         <p>For table reservations, please call us at <strong>+977-11-661234</strong> or email <strong>dining@hotelbanepa.com</strong></p>
-        <Link to="/booking" className="btn btn-primary btn-reservation">Reserve a Table</Link>
+        <Link to="/table-reservation" className="btn btn-primary btn-reservation">Reserve a Table</Link>
       </div>
     </section>
   )
